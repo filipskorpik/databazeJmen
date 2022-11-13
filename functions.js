@@ -10,7 +10,7 @@
     }
  }
 
-//  funkce pro použití při odeslání formuláře
+// funkce pro použití při odeslání formuláře
 // ukládá do localStorage jméno z formuláře
 
 const saveNames = function(oneName){
