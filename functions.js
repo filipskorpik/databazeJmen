@@ -42,7 +42,7 @@ const generateHTMLstrukture = function(oneName){
     } else {
         newLink.classList.add("no-adult")
     }
-    newLink.setAttribute("href", `/edit.html#${oneName.id}`)
+    newLink.setAttribute("href", `edit.html#${oneName.id}`)
     newDiv.appendChild(newLink)
     
     return newDiv
