@@ -1,3 +1,5 @@
+"use strict"
+
 //  funkce načítající data z localStorage
  
  const getSavedNames = function(){

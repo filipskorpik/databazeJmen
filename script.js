@@ -1,8 +1,9 @@
+"use strict"
 // načtení dat z localStorage do proměnné names, pokud prázdný, tak vytvoří prázdné pole
 const names = getSavedNames()
 
 // odeslání formuláře a uložení do localStorage pomocí promenné names
-myForm = document.querySelector("#test-form")
+let myForm = document.querySelector("#test-form")
 let myCheckbox = document.querySelector(".my-checkbox")
 
 myForm.addEventListener("submit", function(event){

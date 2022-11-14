@@ -1,3 +1,5 @@
+"use strict"
+
 let nameID = location.hash.substring(1)
 let names = getSavedNames()
 
